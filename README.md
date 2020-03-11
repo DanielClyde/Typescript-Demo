@@ -24,5 +24,7 @@ The original creator of Node, Ryan Dahl, has recently began working on a project
 
 [NPM](https://www.npmjs.com/get-npm) Node downloads with npm already but here is a link to get both and to read up on npm
 
+[NVM (Node Version Manager) Github](https://github.com/nvm-sh/nvm) this is a nice tool to manage all your different version of node for different projects.
+
 [Getting Started Tutorial](https://www.robertcooper.me/get-started-with-typescript-in-2019) A helpful little guide that goes over some set up and some cool things you can do in Typescript
 
