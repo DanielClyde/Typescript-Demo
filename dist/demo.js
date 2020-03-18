@@ -34,6 +34,11 @@ for (let p of people) {
     document.body.append(h);
 }
 console.log('All People', people);
+class MyClass {
+    constructor() {
+        this.val = 1;
+    }
+}
 // type unions
 let sedanOrTruck;
 let sedanAndTruck;

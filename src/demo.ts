@@ -67,14 +67,19 @@ type Sedan = {
 }
 
 
+type ValidMeterPort = 1 | 2;
+type FavoriteFoods = 'Pizza' | 'Steak';
+
+ class MyClass {
+  public val: ValidMeterPort = 1;
+}
 
 // type unions
 let sedanOrTruck: Truck | Sedan;
 let sedanAndTruck: Truck & Sedan;
 
-type MyCustomType = 1 | 2;
 
 
-let num: MyCustomType = 2;
+let num: ValidMeterPort = 2;
 
 let myCustomArray: [Person, string, number];
