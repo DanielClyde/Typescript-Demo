@@ -1,4 +1,14 @@
 # Typescript-Demo
+
+## Running This Demo:
+- Have node installed (see below for more info)
+- run `npm install -g typescript` to get the tsc (typescript compiler)
+- Navigate to this project's directory
+- run `tsc`. This will transpile the .ts files in the src/ folder into .js files in the dist/ folder
+- navigate to the dist/ folder and run `node simpledemo.js` to run the simple command line javasript program
+  (note that you can't run the demo.js with node because it accesses the DOM which doesn't exist in the command line, so it must be run as a script in HTML)
+- open up index.html to see what demo.js script does!
+
 ## What is Typescript?
 Typescript provides a safe and strict typing interface to javascript. It then gets compiled (technically "transpiled") into valid runnable javascript code. This means that all valid javascript code is actually valid typescript. But typescript provides many awesome tools to help developers create better structured web apps.
 
